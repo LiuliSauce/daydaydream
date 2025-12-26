@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/npm/wrangler@4.54.0/config-schema.json",
+  "compatibility_date": "2025-12-26",
+  "name": "daydaydream",
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "d78d817165824d3f9127b30b6ac5b37a"
+    }
+  ],
+  "triggers": {
+    "crons": ["30 0/2 * * *"]
+  }
+}
